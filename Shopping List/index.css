@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaporwave Styling</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            background-color: #35003e;
+            color: #ff0080;
+            user-select: none;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 320px;
+            margin: 30px auto;
+        }
+
+        img {
+            width: 150px;
+            margin: 0 auto;
+        }
+
+        input {
+            color: #ffffff;
+            background-color: #6600cc;
+            border: 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            margin: 10px 0;
+            outline: none;
+        }
+
+        button {
+            color: #ffffff;
+            background-color: #00ff2a;
+            border: 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            outline: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff99ff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        ul li {
+            font-size: 20px;
+            background-color: #6600cc;
+            padding: 15px;
+            border-radius: 8px;
+            flex-grow: 1;
+            text-align: center;
+            box-shadow: 0px 1px 4px rgba(255, 0, 128, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        ul li:hover {
+            background-color: #ff99ff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+</html>
